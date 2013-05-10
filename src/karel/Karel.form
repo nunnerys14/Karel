@@ -32,20 +32,20 @@
             <Property name="text" type="java.lang.String" value="Themes"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Zelda"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem6ActionPerformed"/>
-              </Events>
-            </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Link to the Past"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem8ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Elements of Zelda"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem6ActionPerformed"/>
               </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
@@ -95,7 +95,7 @@
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[990, 550]"/>
+      <Dimension value="[990, 552]"/>
     </Property>
     <Property name="resizable" type="boolean" value="false"/>
   </Properties>
@@ -268,7 +268,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="33" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="36" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -374,7 +374,7 @@
                                   <Component id="jButton8" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jButton9" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace pref="186" max="32767" attributes="0"/>
+                              <EmptySpace pref="216" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -436,14 +436,14 @@
                                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                                       <Component id="Slowdown" min="-2" pref="53" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                                      <Component id="Stop" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="Stop" min="-2" pref="53" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="Pause" min="-2" pref="50" max="-2" attributes="0"/>
+                                      <Component id="Pause" min="-2" pref="53" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                                       <Component id="Speedup" min="-2" pref="53" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace pref="74" max="32767" attributes="0"/>
+                              <EmptySpace pref="68" max="32767" attributes="0"/>
                           </Group>
                           <Component id="logPane" alignment="1" max="32767" attributes="0"/>
                           <Group type="102" alignment="1" attributes="0">
@@ -461,16 +461,16 @@
                               <Component id="speedCounter" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Slowdown" min="-2" pref="50" max="-2" attributes="0"/>
-                                  <Component id="Stop" min="-2" pref="50" max="-2" attributes="0"/>
-                                  <Component id="Pause" min="-2" pref="50" max="-2" attributes="0"/>
-                                  <Component id="Speedup" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="Slowdown" min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Component id="Stop" min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Component id="Pause" min="-2" pref="53" max="-2" attributes="0"/>
+                                  <Component id="Speedup" min="-2" pref="53" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                               <Component id="logClear" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="logPane" min="-2" pref="276" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="logPane" min="-2" pref="265" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -537,9 +537,6 @@
                             <Property name="disabledTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="0" green="ff" red="0" type="rgb"/>
                             </Property>
-                            <Property name="selectedTextColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                              <Color blue="0" green="0" red="0" type="rgb"/>
-                            </Property>
                             <Property name="selectionColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="ff" green="ff" red="ff" type="rgb"/>
                             </Property>
@@ -576,7 +573,7 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="434" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="464" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
@@ -621,7 +618,7 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="434" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="464" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
